@@ -1,0 +1,181 @@
+    /*Navbar list*/
+    .list
+    {
+        font-size: 15px;
+       
+    }
+    .navbar1
+    {
+        height:50px;   
+    }
+    /* carousel*/
+    .slider
+    {
+        height: 500px;
+    }
+    .imgslide
+    {
+        height: 500px;
+    }
+    .cap
+    {
+        
+        margin-bottom: 100px;
+       font-weight: bolder;
+     
+    }
+
+    .btn
+    {
+        outline: none;
+    }
+
+    /* Section:Featured collection*/
+    .dot
+    {
+      height:5px;
+      width: 5px;
+      background-color:red;
+       border-radius: 50%;
+      display: inline-block;
+      margin: 5px;
+    }
+
+    .fimg
+    {
+        width: 150px;
+        height: 120px;
+        margin-left: 20px;
+        margin-top: 20px;
+        
+    }
+    /* section Hot Deal start*/
+
+    .checked
+    {
+        color: orange;
+    }
+
+    /*Section variety Start*/
+    .imgcollection
+    {
+        width: 50px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 10px;
+        border-radius: 10px 10px 10px 10px;
+    }
+    .brandcap,.budget
+    {
+      text-decoration: none;
+      color: lightslategray;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .brandcap:hover
+    {
+        color: black;
+    }
+    .budget:hover
+    {
+       border-radius: 10px 10px 10px 10px;
+        color: black;
+    }
+    
+    hr
+    {
+        color: red;
+        position: relative;
+        border:none;
+        height: 4px;
+    }
+    .fbike
+    {
+        width: auto;
+        height: 160px;
+    }
+    .fbike:hover
+    {
+        cursor:pointer;
+        
+    }
+
+   
+        .bgimg
+          {
+              background-image: url(../Image/bottom.jpg);
+             
+              background-size: 100% 100%;
+              height:600px;
+              
+          }
+
+          /*footer section*/
+          .fotimg
+          {
+              width: 50px;
+              height: 30px;
+              
+          }
+          .imgright
+          {
+              margin-left: 10px;
+              margin-top: 10px;
+              border-radius: 10px 10px 10px 10px;
+              width:120px;
+              height: 150px;
+          }
+
+         /*Login page css*/
+         
+         .content
+{
+    height: 750px;
+    width: 100%;
+    background:url(../IMAGE/road.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 750px;
+
+}
+.box_right
+{
+
+    font-size: 16px;
+    width: 30%;
+    padding: 30px;
+    margin-left: 400px;
+  
+}
+.form1
+{
+    margin-top: 50px;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px;
+    height: 350px;
+    width: 400px;
+   
+}
+/*Registration css*/
+.form2
+{
+    margin-top: 50px;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px 5px;
+    height: 700px;
+    width: 650px;
+   
+}
+
+.Fimg1
+{
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+
+          

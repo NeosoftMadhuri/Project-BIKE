@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Index</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--bootstrap icon cdn-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" href="../CSS/style.css">
+  </head>
+
+  <body class="bg-light">
+
+     <!--main section-->
+    <main class="bg-light  ">
+      <!--Navbar Section-->
+        <nav class="navbar navbar-expand-lg fixed-top  navbar-dark bg-dark">
+          <a class="navbar-brand mr-5" href="#">Bike.India</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto ">
+              <li class="nav-item active ml-5">
+                <a class="nav-link active" href="Index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+             
+              <li class="nav-item dropdown ml-5">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Bikes
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">New Bike</a>
+                  <a class="dropdown-item" href="#">Latest Bike</a>
+                  <a class="dropdown-item" href="#">Upcomming Bike</a>
+                  <a class="dropdown-item" href="#">Electrical Bike</a>
+                  
+              </li>
+
+              <li class="nav-item dropdown ml-5">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Scooter
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">New Scooter</a>
+                  <a class="dropdown-item" href="#">Latest Scooter</a>
+                  <a class="dropdown-item" href="#">Upcomming Scooter</a>
+                  <a class="dropdown-item" href="#">Electrical Scooter Galary</a>
+                  
+              </li>
+             
+              <li class="nav-item ml-5">
+                <a class="nav-link" href="Contact.html">Contact Us</a>
+              </li>
+
+              <li class="nav-item ml-5">
+                <a class="nav-link " href="#">About Us <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <button class="btn btn-outline-success my-2 mr-3 my-sm-0" type="submit"><a href="login.html" style="text-decoration: none;color:white;margin-right: 20px;">login</a> </button>
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit"><a href="registration.html" style="text-decoration: none;color:white;"> Sign Up</a></button>
+            </form>
+          </div>
+        </nav>
+       <!--Nav section end-->
+     
+    </main>
+     <!--Main section end-->
+   
+     <section class="content">
+       
+        <aside class="box_right  ">
+          
+            <form class=" form2 bg-light p-2">
+              <h4 class="text-center">Sign up to Bike.India</h4>
+                <div class="row">
+                      
+                    <div class="col-md-6 col-lg-6 col-sm-6 ">
+                        <label for="firstname" class="label" >First Name</label>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="fname" id="name" placeholder="First Name"onblur="validate1()"  required>
+                            <span id="err1"></span><!--<label for="firstname">First Name</label>-->
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-sm-6">
+                        <label for="Lastname">Last  Name</label>
+                          <div class="form-group">
+                            <input type="text" class="form-control" name="fname" id="lname" placeholder="Last Name" onblur="validate4()"  required>
+                            <span id="err4"></span>
+                          </div>
+                    </div>
+               </div>
+    
+              
+    
+               <div class="row">
+                 <div class="col-md-6 col-lg-6 col-sm-6">
+                    <label for="address">Street Address</label>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="fname" placeholder="Street Address Line 1" required>
+                        <!--<label for="firstname">First Name</label>-->
+                    </div>
+                 </div>
+                 <div class="col-md-6 col-lg-6 col-sm-6">
+                    <label for="address">Street Address</label>
+                    <div class="form-group">
+                        <!--<label for="Lastname">Last  Name</label>-->
+                        <input type="text" class="form-control" name="fname" placeholder="Street Address Line 2 ">
+                    </div>
+                 </div>
+               </div>
+    
+               <div class="row">
+                 <div class="col-md-6 col-lg-6 col-sm-6">
+                    <label for="city">City</label>
+                    <div class="form-group">
+                        
+                        <select class="form-control">
+                            <option>Mumbai</option>
+                            <option>Pune</option>
+                            <option>Sangli</option>
+                            <option>Satara</option>
+                        </select>
+                    </div>
+                 </div>
+                 <div class="col-md-6 col-lg-6 col-sm-6">
+                    <label for="city">State</label>
+                    <div class="form-group">
+                        
+                        <select class="form-control">
+                            <option>Maharashtra</option>
+                            <option>Goa</option>
+                            <option>Panjab</option>
+                            <option>Hariyana</option>
+                        </select>
+                    </div>
+                 </div>
+                </div>
+    
+               
+               <div class="row">
+                   <div class="col-sm-12 col-md-12 col-lg-12">
+                       <div class="from-group">
+                           <label for="email">Email-Id </label>
+                           <input type="email" class="form-control" id="e-id" onblur="validate3()" placeholder="Enter Email-id" required>
+                           <span id="err3"></span>
+                          </div>
+                    </div>
+               </div>
+    
+               <br>
+    
+               <div class="row">
+                 <div class="col-md-6 col-lg-6 col-sm-6">
+                    <label for="address">Password *</label>
+                    <div class="form-group">
+                        <input type="password" id="password" class="form-control" name="password"onblur="validate5()"  placeholder="Set Password" required>
+                       
+                        <span id="err5"></span> <!--<label for="firstname">First Name</label>-->
+                    </div>
+                 </div>
+                 <div class="col-md-6 col-lg-6 col-sm-6">
+                    <label for="address">Confirm Password *</label>
+                    <div class="form-group">
+                        <!--<label for="Lastname">Last  Name</label>-->
+                        <input type="password" id="Cpassword" class="form-control" name="fname" onblur="validate6()"  placeholder="Confirm Password " required>
+                        <span id="err6"></span>
+                      </div>
+                 </div>
+               </div>
+    
+               
+    
+           <div class="row">
+               <div class="col-sm-6 col-md-6 col-lg-6 ">
+                <label for="geder">Gender *</label>
+                   <div class="form-group">
+                     <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gender"  checked>
+                          <label class="form-check-label" for="Radios1"> Male </label>
+                          <input class="form-check-input ml-4" type="radio" name="gender"  checked>
+                          <label class="form-check-label ml-5" for="Radios2"> Female </label>
+                     </div>
+                   </div>
+                </div>
+              
+                <div class="col-md-6 col-lg-6 col-sm-6">
+                    <label for="mobile">Mobile No</label>
+                    <div class="form-group">
+                        <!--<label for="Lastname">Last  Name</label>-->
+                        <input type="number" class="form-control" id="mobile" name="mobile" onblur="validate2()" placeholder="Mobile Number required ">
+                        <span id="err2"></span>
+                      </div>
+                </div>
+            </div>
+             
+            <input type="submit" name="submit" value="Sign Up" class="btn btn-danger" onSubmit="vali()">
+            <input type="reset" name="submit" value="Reset" class="btn btn-danger">
+              </form>
+            
+        </aside>
+     
+     </section>
+      <!--Footer Section End-->
+     <section class="footer bg-dark py-4 text-center text-light ">
+         <p>@copyright</p>
+        </section>
+        <script src="../JS/validate.JS"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
